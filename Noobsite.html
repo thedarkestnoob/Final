@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Code for the Clock-->
+
+    <div id="clock"></div>
+    <script>
+function currentTime() {
+  let date = new Date(); 
+  let hh = date.getHours();
+  let mm = date.getMinutes();
+  let ss = date.getSeconds();
+  let session = "AM";
+
+    
+  if(hh > 12){
+      session = "PM";
+   }
+
+   hh = (hh < 10) ? "0" + hh : hh;
+   mm = (mm < 10) ? "0" + mm : mm;
+   ss = (ss < 10) ? "0" + ss : ss;
+    
+   let time = hh + ":" + mm + ":" + ss + " " + session;
+
+  document.getElementById("clock").innerText = time; 
+  let t = setTimeout(function(){ currentTime() }, 1000); 
+
+}
+
+currentTime();
+
+    </script>
+    <title>PEAK Site</title>
+    <script src ="Code.js"></script>
+ <!--Tabel Desgin-->
+    <style>
+        table, th, td{
+            border: 1px solid green;
+            padding: 10px;
+            background-color: aquamarine;
+            color: rebeccapurple;
+        }
+    </style>
+    <style>
+        a{
+          font-size: 16pt;
+          color: #b03532;
+          text-shadow: #49b293;
+          text-decoration: underline;
+          font-family: fantasy;
+        }
+      </style>
+</head>
+<body> 
+    <!--Code for the top text to change between sites-->
+
+    <a href="GearSecondo.html">home</a>&nbsp; &nbsp;<a href="Noobsite.html">Space Page</a
+
+
+    <div id = "digital-clock"> </div>
+    <!--SFX code-->
+    <audio controls>
+        <source src="Bruh_-_Sound_Effect_HD_(getmp3.pro).mp3" type="audio/mpeg">
+    </audio>
+     <!--Colors and Squidward!-->
+    <h1 style="background-color:rgb(88, 171, 255);">UAT space program</h1>
+
+    <img src=https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/08/Good-Squidward-bad-Squidward.jpg WIDTH=600/></td></tr></table>
+
+    <p>
+        <p style="background-color:rgba(255, 38, 0, 0.724);">This is a peak site fr fr </p>
+        
+    <p>
+
+         <!--Button Popup-->
+        <button onclick= "alert('Leave Me Alone');">Not a button</button>
+        <br>
+        <!--Buttons Start and Stop-->
+<input type="button" id="btnStart" value="Start" onclick="startButtonClick()"/>
+<input type="button" id="btnStop" value="Stop" onclick="stopButtonClick()"/>
+<p>
+    Countdown: <span id="DisplayCountdown">Ready for takeoff</span>
+<p>
+</body>
+</html>
+<Script>
+    getUserInput();
+</Script>
+
+
+ <!--Code For My Table-->
+<table id="data">
+    <thead>
+        <th>Anime:</th>
+        <th>Score:</th>
+    </thead>
+    <tbody>
+        <tr id="">
+            <td>Spirited Away
+            </td>
+            <td>10</td>
+        </tr>
+        <tr id="">
+            <td>My Bride is a Mermaid
+            </td>
+            <td>10</td>
+        </tr>
+        <tr id="">
+            <td>The Secret World of Arrietty
+            </td>
+            <td>10</td>
+        </tr>
+        <tr id="">
+            <td>Steins;Gate
+            </td>
+            <td>10</td>
+        </tr>
+        <tr id="">
+            <td>Fate/Zero
+            </td>
+            <td>10</td>
+        </tr>
+        <tr id="">
+            <td>Haganai: I don't have many friends
+            </td>
+            <td>10</td>
+        </tr>
+        <tr id="">
+            <td>Akira
+            </td>
+            <td>8</td>
+        </tr>
+        <tr id="">
+            <td>Princess Mononoke
+            </td>
+            <td>8</td>
+        </tr>
+        <tr id="">
+            <td>Ranma ½
+            </td>
+            <td>7</td>
+        </tr>
+        <tr id="">
+            <td>Elfen Lied
+            </td>
+            <td>8</td>
+        </tr>
+        <tr id="">
+            <td>Bleach</td>
+            <td>7</td>
+        </tr>
+    </tbody>
+</table>
